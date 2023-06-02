@@ -27,7 +27,7 @@ public class TestPolymophism {
 		TestInterface bit;
 		TestInterface bit2;
 		Kh kh21 = new Kh();
-		kh21.khSpecial();
+		//kh21.khSpecial();
 		kh21.method1();
 		
 		Driver ej = new DriverSub();
