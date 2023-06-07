@@ -1,6 +1,6 @@
 package kh.lclass.api;
 
-public class TestSingleton {
+public class TestSingleton { //캘린더 리소스 큰 애들 
 	private int a = 10;
 	private static TestSingleton instance = new TestSingleton();
 	

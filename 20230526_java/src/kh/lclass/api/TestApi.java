@@ -29,10 +29,12 @@ public class TestApi {
 		System.out.println(ts.getA());
 		ts.setA(50);
 		System.out.println(ts.getA());
+		
 		TestSingleton ts2 = TestSingleton.getInstance();
 		System.out.println(ts2.getA());
 		ts.setA(100);
 		System.out.println(ts2.getA());
+		
 		System.out.println(c.getTime());
 		
 	}
