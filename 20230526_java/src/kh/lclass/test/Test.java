@@ -1,6 +1,8 @@
 package kh.lclass.test;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import kh.lclass.oop.sample.Car;
@@ -13,4 +15,7 @@ public class Test {
 		objMap.put("am", "amne");
 		System.out.println(objMap.toString());
 	}
+	
+	ArrayList<String> list1 = new ArrayList<String>();
+	ArrayList<Integer> list2 =new ArrayList<Integer>();
 }
