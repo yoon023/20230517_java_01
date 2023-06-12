@@ -36,6 +36,7 @@ public class TcpServer {
 				Socket sc = ss.accept();
 				System.out.println("클라이언트 접속됨:" + sc.getLocalPort());
 				System.out.println("클라이언트 접속됨:" + sc.getPort());
+				System.out.println("클라이언트 접속됨:" + sc.getInetAddress().toString());
 				// 5
 				InputStream in = sc.getInputStream();
 				OutputStream out = sc.getOutputStream();
