@@ -34,19 +34,19 @@ public class TcpClient {
 			System.out.println("서버에 포트 "+ socket.getPort());
 			System.out.println("나의 Port "+ socket.getLocalPort());
 			
-			// 5.연결된 클라이언트와 입출력 스트림 생성
+			// 2.연결된 클라이언트와 입출력 스트림 생성
 			in = socket.getInputStream();
 			out = socket.getOutputStream();
-			// 6.보조 스트림을 통해 성능 개선
+			// 3.보조 스트림을 통해 성능 개선
 			br = new BufferedReader(new InputStreamReader(in));
 			pw = new PrintWriter(new OutputStreamWriter(out));
 			
 			String sendMsg = null;
 			while(true) {
 				System.out.print("메시지>>");
-				sendMsg = stdIn.readLine();  // console에 입력한 문자 읽어들이기
+				// console에 입력한 문자 읽어들이기
 				System.out.println("########"+sendMsg);
-				
+				//server로 부터 메시지 읽기 
 				pw.println(sendMsg);
 				pw.flush();
 				
