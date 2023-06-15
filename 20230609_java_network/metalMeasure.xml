@@ -7,74 +7,74 @@
 	<body>
 		<items>
 			<item>
-				<sdate>20230101000000</sdate>
+				<sdate>20230107000000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>30.6986</value>
+				<value>14.7556</value>
 			</item>
 			<item>
-				<sdate>20230101020000</sdate>
+				<sdate>20230107020000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>27.8845</value>
+				<value>13.2949</value>
 			</item>
 			<item>
-				<sdate>20230101040000</sdate>
+				<sdate>20230107040000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>18.421</value>
+				<value>20.4721</value>
 			</item>
 			<item>
-				<sdate>20230101060000</sdate>
+				<sdate>20230107060000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>27.6518</value>
+				<value>23.4483</value>
 			</item>
 			<item>
-				<sdate>20230101080000</sdate>
+				<sdate>20230107080000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>36.4845</value>
+				<value>100.5213</value>
 			</item>
 			<item>
-				<sdate>20230101100000</sdate>
+				<sdate>20230107100000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>49.8545</value>
+				<value>72.6795</value>
 			</item>
 			<item>
-				<sdate>20230101120000</sdate>
+				<sdate>20230107120000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>49.0341</value>
+				<value>97.6663</value>
 			</item>
 			<item>
-				<sdate>20230101140000</sdate>
+				<sdate>20230107140000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>45.8621</value>
+				<value>80.3474</value>
 			</item>
 			<item>
-				<sdate>20230101160000</sdate>
+				<sdate>20230107160000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>25.8386</value>
+				<value>69.5755</value>
 			</item>
 			<item>
-				<sdate>20230101180000</sdate>
+				<sdate>20230107180000</sdate>
 				<stationcode>1</stationcode>
 				<itemcode>90303</itemcode>
 				<timecode>RH02</timecode>
-				<value>11.6348</value>
+				<value>71.358</value>
 			</item>
 		</items>
 		<numOfRows>10</numOfRows>
