@@ -12,6 +12,7 @@ public class StudentVo {
 	private Date entranceDate;
 	private String absenceYn;
 	private String coachProfessorNo;
+	private String departmentName;
 	
 	public String getStudentNo() {
 		return studentNo;
@@ -58,6 +59,12 @@ public class StudentVo {
 	public String getCoachProfessorNo() {
 		return coachProfessorNo;
 	}
+	public String getDepartmentName() {
+		return departmentName;
+	}
+	public void setDepartmentName(String departmentName) {
+		this.departmentName = departmentName;
+	}
 	public void setCoachProfessorNo(String coachProfessorNo) {
 		this.coachProfessorNo = coachProfessorNo;
 	}
@@ -65,6 +72,8 @@ public class StudentVo {
 	public String toString() {
 		return "StudentVo [studentNo=" + studentNo + ", departmentNo=" + departmentNo + ", studentName=" + studentName
 				+ ", studentSsn=" + studentSsn + ", studentAddress=" + studentAddress + ", entranceDate=" + entranceDate
-				+ ", absenceYn=" + absenceYn + ", coachProfessorNo=" + coachProfessorNo + "]";
+				+ ", absenceYn=" + absenceYn + ", coachProfessorNo=" + coachProfessorNo + ", departmentName="
+				+ departmentName + "]";
 	}
+	
 }
