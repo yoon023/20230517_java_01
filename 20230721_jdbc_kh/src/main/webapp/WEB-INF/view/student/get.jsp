@@ -9,13 +9,14 @@
 </head>
 <body>
 	<h1>학생 상세 정보</h1>
+	<%-- <%= request.getAttribute("svo") %> --%>
 	<%
 	StudentVo vo = null;
 	if(request.getAttribute("svo") instanceof StudentVo){
-	 vo = (StudentVo)request.getAttribute("svo");
+		vo = (StudentVo)request.getAttribute("svo");
 	}
 	%>
-	<table>
+	<table border="1">
 		<tr>
 			<td>이름</td>
 			<td><%=vo.getStudentName() %></td>
@@ -28,7 +29,7 @@
 			<td>소속학과이름</td>
 			<td><%=vo.getDepartmentName() %></td>
 		</tr>
-		
 	</table>
+	
 </body>
 </html>

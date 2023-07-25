@@ -3,7 +3,15 @@ package kh.test.jdbckh.student.model.vo;
 import java.sql.Date;
 
 public class StudentVo {
-	
+//	------------------ -------- ------------- 
+//	STUDENT_NO         NOT NULL VARCHAR2(10)  
+//	DEPARTMENT_NO      NOT NULL VARCHAR2(10)  
+//	STUDENT_NAME       NOT NULL VARCHAR2(40)  
+//	STUDENT_SSN                 VARCHAR2(14)  
+//	STUDENT_ADDRESS             VARCHAR2(200) 
+//	ENTRANCE_DATE               DATE          
+//	ABSENCE_YN                  CHAR(1)       
+//	COACH_PROFESSOR_NO          VARCHAR2(20)  
 	private String studentNo;
 	private String departmentNo;
 	private String studentName;
@@ -12,8 +20,17 @@ public class StudentVo {
 	private Date entranceDate;
 	private String absenceYn;
 	private String coachProfessorNo;
+	
 	private String departmentName;
 	
+
+	@Override
+	public String toString() {
+		return "StudentVo [studentNo=" + studentNo + ", departmentNo=" + departmentNo + ", studentName=" + studentName
+				+ ", studentSsn=" + studentSsn + ", studentAddress=" + studentAddress + ", entranceDate=" + entranceDate
+				+ ", absenceYn=" + absenceYn + ", coachProfessorNo=" + coachProfessorNo + ", departmentName="
+				+ departmentName + "]";
+	}
 	public String getStudentNo() {
 		return studentNo;
 	}
@@ -59,21 +76,15 @@ public class StudentVo {
 	public String getCoachProfessorNo() {
 		return coachProfessorNo;
 	}
+	public void setCoachProfessorNo(String coachProfessorNo) {
+		this.coachProfessorNo = coachProfessorNo;
+	}
 	public String getDepartmentName() {
 		return departmentName;
 	}
 	public void setDepartmentName(String departmentName) {
 		this.departmentName = departmentName;
 	}
-	public void setCoachProfessorNo(String coachProfessorNo) {
-		this.coachProfessorNo = coachProfessorNo;
-	}
-	@Override
-	public String toString() {
-		return "StudentVo [studentNo=" + studentNo + ", departmentNo=" + departmentNo + ", studentName=" + studentName
-				+ ", studentSsn=" + studentSsn + ", studentAddress=" + studentAddress + ", entranceDate=" + entranceDate
-				+ ", absenceYn=" + absenceYn + ", coachProfessorNo=" + coachProfessorNo + ", departmentName="
-				+ departmentName + "]";
-	}
+	
 	
 }
