@@ -11,7 +11,8 @@
 <title>EL - </title>
 </head>
 <body>
-
+<img alt="png테스트" src="/resources/images/tree.png">
+<img alt="png테스트" src="<%=request.getContextPath() %>/resources/images/tree.png">
 <h2> EL - ExpressionLanguage <br>단점: java for/if/변수 사용 불가<br> 보완:jstl의 foreach/if/set변수 사용 </h2>
 
 <hr>
